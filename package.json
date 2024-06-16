@@ -2,8 +2,11 @@
   "name": "react-portfolio-template",
   "version": "3.0",
   "private": true,
+  "homepage": "https://slimanitz.github.io",
   "scripts": {
     "dev": "next dev",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,6 +15,7 @@
     "@headlessui/react": "^1.6.6",
     "autoprefixer": "^10.4.7",
     "custom-cursor-react": "^1.0.5",
+    "gh-pages": "^6.1.1",
     "gray-matter": "^4.0.3",
     "gsap": "^3.10.4",
     "next": "12.1.6",
