@@ -2,7 +2,6 @@
   "name": "react-portfolio-template",
   "version": "3.0",
   "private": true,
-  "homepage": "https://slimanitz.github.io",
   "scripts": {
     "dev": "next dev",
     "predeploy": "yarn build",
